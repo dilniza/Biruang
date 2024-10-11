@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* .fab {
+    color: blue;
+    font-size: 50px;
+}
+.fas {
+    color: red;
+} */
+
+body {
+    font-family: "Roboto";
+}
+
+/* header start */
+
+header .menutop{
+    background: white;
+}
+header .menutop nav {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* navtop qismi */
+header .menutop nav .navtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    padding: 33px 0;
+}
+header .menutop nav .navtop .logo {
+    color: #67686d;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+header .menutop nav .navtop .navcontact {
+    display: flex;
+    justify-content: space-between;
+}
+header .menutop nav .navtop .navcontact .navaddress {
+    display: flex;
+    align-items: center;
+}
+/* nav phone qismi */
+header .menutop nav .navtop .navcontact .navaddress .navphone {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #7e7f84;
+    margin-right: 20px;
+}
+header .menutop nav .navtop .navcontact .navaddress .navphone .fas {
+    color: #7e7f84;
+    margin-right: 7px;
+    font-size: 18px;
+}
+header .menutop nav .navtop .navcontact .navaddress .navemail {
+    color: #7e7f84;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: 500ms;
+}
+header .menutop nav .navtop .navcontact .navaddress .navemail:hover {
+    color: red;
+    text-decoration: underline;
+}
+header .menutop nav .navtop .navcontact .navaddress .navemail .far {
+    font-size: 18px;
+    margin-right: 7px;
+}
+/* nav shop qismi */
+header .menutop nav .navtop .navcontact .navshop {
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    border: 1px solid #7e7f84;
+    width: 100px;
+    height: 33px;
+    padding: 6px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #7e7f84;
+}
+header .menutop nav .navtop .navcontact .navshop .fas {
+    margin-right: 13px;
+    font-size: 18px;
+}
+/* nav bottom qismi */
+header .menutop .navbottom {
+    padding: 15px 0;
+}
+header .menutop .navbottom ul {
+    display: flex;
+}
+header .menutop .navbottom ul li {
+    margin-right: 36px;
+}
+header .menutop .navbottom ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #7e7f84;
+    transition: 500ms;
+}
+header .menutop .navbottom ul li a.active, header .menutop .navbottom ul li a:hover{
+    color: #f45a40;
+}
+header .menutop .navbottom ul li.navsearch .fas {
+    font-size: 15px;
+}
+/* menu title */
+header .menutitle {
+    background: url(../img/header_02.png) no-repeat center center / cover;
+    height: 658px;
+    color: white;
+    padding-top: 216px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header .menutitle .title {
+    max-width: 435px;
+}
+header .menutitle .title h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+header .menutitle .title p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+header .menutitle .title .menubtn {
+    padding: 14px 22px;
+    background: #f45a40;
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/* main start */
+main {
+    padding: 65px 0;
+}
+main .maintop {
+    display: flex;
+    justify-content: space-between;
+}
+main .maintop .item {
+    width: 370px;
+}
+main .maintop .item img {
+    max-width: 100%;
+    height: auto;
+}
+main .maintop .item .itemtitle {
+    margin-top: 25px;
+}
+main .maintop .item .itemtitle h3 {
+    font-size: 23px;
+    font-weight: 400;
+    color: #f45a40;
+    margin-bottom: 20px;
+}
+main .maintop .item .itemtitle h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+main .maintop .item .itemtitle p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e7f84;
+    line-height: 20px;
+}
+/* main bottom */
+main .mainbottom {
+    margin-top: 60px;
+}
+main .mainbottom h2 {
+    color: #67686d;
+    font-size: 23px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+main .mainbottom .mainbox {
+    display: flex;
+    justify-content: space-between;
+}
+main .mainbottom .mainbox .box  {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+main .mainbottom .mainbox .box img{
+    max-width: 100%;
+}
+main .mainbottom .mainbox .box .boxtitle {
+    padding: 20px;
+    border: 1px solid #eeeeee;
+    color: #67686d;
+}
+main .mainbottom .mainbox .box .boxtitle h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+main .mainbottom .mainbox .box .boxtitle span {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 13px;
+}
+main .mainbottom .mainbox .box .boxtitle p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+main .mainbottom .mainbox .box .boxtitle .boxprice {
+    border-top: 1px solid #eeeeee;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+main .mainbottom .mainbox .box .boxtitle .boxprice span:first-child {
+    color: #f45a40;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+main .mainbottom .mainbox .box .boxtitle .boxprice .far,
+main .mainbottom .mainbox .box .boxtitle .boxprice .fas {
+    color: #67686d;
+    margin-right: 4px;
+    cursor: pointer;
+}
+main .mainbottom .mainbox .box .boxtitle .boxprice .far:hover,
+main .mainbottom .mainbox .box .boxtitle .boxprice .fas:hover {
+    color: #f45a40;
+}
+/* section qismi  */
+section .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+/* info */
+section .container .info {
+    width: 182px;
+    margin-right: 110px;
+}
+section .container .info h4 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #67686d;
+    margin-bottom: 40px;
+}
+section .container .info span {
+    color: #f45a40;
+}
+section .container .info p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+    display: block;
+    margin-bottom: 47px;
+}
+section .container .info .links {
+    color: #656363;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+section .container .info .links i:hover {
+    color: #ef4035;
+    cursor: pointer;
+}
+/* about */
+section .container .about {
+    margin-top: 40px;
+    width: 465px;
+    border-left: 1px solid #eeeeee;
+    padding: 22px 20px;
+}
+section .container .about p {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    color: #7e7f84;
+    line-height: 21px;
+}
+/* sign_up */
+section .signup {
+    height: 101px;
+    background: #f45a40;
+}
+section .signup .blok {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+section .signup .blok .signtitle {
+    padding: 42px 0;
+}
+section .signup .blok .signemail {
+    padding: 32px 0;
+}
+section .signup .blok .signemail input {
+    width: 246px;
+    height: 38px;
+    border: none;
+    padding: 14px 23px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+section .signup .blok .signemail button {
+    width: 104px;
+    height: 38px;
+    border: none;
+    background: #ff674f;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+}
+section .signup .blok .signtitle h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/* footer start */
+footer {  
+    background: #2a2d34;
+    height: 400px;
+}
+footer .bottom {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 45px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottom p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #7e7f84;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+footer .bottom h4 {
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 23px;
+}
+footer .bottom .store {
+    width: 272px;
+}
+footer .bottom .store .links i {
+    color: #ffffff;
+    margin-right: 23px;
+    cursor: pointer;
+}
+footer .bottom .store .links i:hover {
+    color: #ef4035;
+}
+footer .bottom .blog {
+    width: 270px;
+}
+footer .bottom .blog h5 {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+}
+footer .bottom .support {
+    width: 290px;
+}
+footer .bottom .support .lis {
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottom .support ul {
+    font-size: 15px;
+    font-weight: 400;
+    color: #7e7f84;
+    line-height: 24px;
+}
+footer .bottom .form {
+    width: 270px;
+}
+footer .bottom .form input {
+    padding: 12px 20px;
+    width: 270px;
+    margin-bottom: 22px;
+    height: 33px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7e7f84;
+}
+footer .bottom .form textarea {
+    padding: 12px 20px;
+    font-family: 'Roboto';
+    width: 270px;
+    height: 83px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7e7f84;
+}
+footer .bottom .form form .bn {
+    color: white;
+    background: #f45a40;
+    font-style: 12px;
+    font-weight: 400;
+    width: 139px;
+    height: 33px;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+
+/* RESPONSE */ /* Media screen */
+/* 992 lg : oddiy komplaga ekran formati */
+/* 768px : 992px Large Formati 9lg) */
+@media (max-width: 992px) {
+    header .menutop nav .navtop {
+        padding: 20px 15px;
+    }
+    header .menutop .navbottom ul {
+        justify-content: center;
+    }
+    header .menutop .navbottom ul li {
+        margin: 0 15px;
+    }
+    header .menutitle .title {
+        text-align: center;
+        max-width: 100%;
+    }
+    header .menutitle .title h1 {
+        font-size: 50px;
+    }
+    main .maintop {
+        flex-wrap: wrap;
+        padding: 5px 10px;
+        justify-content: center;
+    }
+    main .maintop .item {
+        margin: 5px;
+        width: 340px;
+        text-align: center;
+    }
+    main .maintop .item:last-child {
+        margin-top: 20px;
+    }
+    main .mainbottom .mainbox {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    main .mainbottom .box {
+        margin: 10px 0;
+    }
+    main .mainbottom h2 {
+        margin-bottom: 10px;
+    }
+    section .container {
+        justify-content: space-around;
+    }
+    section .container .info {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    section .signup .blok .signtitle h3 {
+        font-style: 20px;
+        text-align: center;
+    }
+    section .signup .blok .signtitle {
+        padding: 15px 0;
+    }
+    section .signup .blok {
+        padding: 0 20px;
+        justify-content: space-around;
+    }
+    section .signup .blok .signemail {
+        padding: 15px 0;
+    }
+    footer .bottom {
+        background: #2a2d34;
+        height: 700px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+/* 768 MD : medium planshetlar uchun */
+/* 577px - 768px gacha : Medium */
+@media (max-width: 768px) {    
+    header .menutop nav .navtop {
+        flex-wrap: wrap;
+    }
+    header .menutop nav .navtop .navcontact {
+        font-size: 12px;
+    }
+    header .menutop nav .navtop .navcontact .navaddress .navphone {
+        margin-right: 30px;
+    }
+    header .menutop nav .navtop .navcontact .navshop {
+        margin-left: 30px;
+    }
+    header .menutop nav .navtop .navcontact .navaddress .navphone .fas,
+    header .menutop nav .navtop .navcontact .navaddress .navemail .far,
+    header .menutop nav .navtop .navcontact .navshop .fas {
+        font-size: 15px;
+    }
+    header .menutop .navbottom ul li {
+        font-size: 12px;
+        margin: 0 8px;
+    }
+    header .menutitle .title h1 {
+        font-size: 40px;
+    }
+    footer .bottom {
+        justify-content: center;
+    }
+    footer .bottom p {
+        font-size: 12px;
+    }
+    footer .bottom .support .lis ul li {
+        font-size: 12px;
+    }
+    footer .bottom .support .lis {
+        margin-right: 10px;
+    }
+    footer .bottom h4 {
+        font-size: 20px;
+    }
+    footer .bottom .form {
+        width: 260px;
+    }
+    footer .bottom .support {
+        width: 255px;
+    }
+    footer .bottom .form textarea,
+    footer .bottom .form input {
+        width: 260px;
+    }
+    footer .bottom .store {
+        width: 255px;
+    }
+}
+@media (max-width: 633px) {    
+    header .menutop nav .navtop {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+/* SM : small - telefonlar uchun */
+/* 320px dan - 576px gacha */
+@media (max-width: 576px) {
+    header .menutop nav .navtop {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header .menutop nav .navtop .navcontact {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header .menutop nav .navtop .navcontact .navaddress {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header .menutop nav .navtop .navcontact .navaddress .navphone,
+    header .menutop nav .navtop .navcontact .navaddress .navemail {
+        margin-bottom: 5px;
+    }
+    header .menutop nav .navtop .navcontact .navshop {
+        margin-left: 0;
+    }
+    header .menutop nav .navtop .navcontact .navaddress .navphone .fas,
+    header .menutop nav .navtop .navcontact .navaddress .navemail .far,
+    header .menutop nav .navtop .navcontact .navshop .fas {
+        font-size: 13px;
+    }
+    header .menutop .navbottom ul {
+        flex-wrap: wrap;
+    }
+    header .menutop .navbottom ul li a {
+        font-size: 12px;
+        margin: 0 5px;
+    }
+    header .menutitle .title h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    footer .bottom {
+        justify-content: center;
+    }
+    section .map iframe {
+        width: 300px;
+        height: 270px;
+    }
+    section .signup {
+        height: 150px;
+    }
+    section .signup .blok {
+        display: flex;
+        flex-direction: column;
+    }
+    section .signup .blok .signtitle {
+        padding: 10px;
+    }
+    section .signup .blok .signemail {
+        padding: 10px;
+    }
+    section .signup .blok .signtitle h3 {
+        font-size: 15px;
+    }
+    footer .bottom {
+        padding: 5px;
+    }
+    footer .bottom h4 {
+        margin-top: 15px;
+    }
+    footer .bottom {
+        background: #2a2d34;
+        height: 1300px;
+    }
+}
+/* responsive for miniphones */
+@media (max-width: 320px) {
+    
+}
